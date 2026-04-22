@@ -8,7 +8,8 @@ A pesar de conocer los conceptos, los estudiantes suelen confundirse o actuar po
 ## Stakeholders
 * **Cliente:** Ing. Valeria Rojas Domínguez (EcoCoatza A.C.).
 * **Supervisor Académico:** Dr. José Antonio Vergara Camacho (Universidad Veracruzana).
-* **Equipo de Desarrollo (Quetzalli):** * Carlos Miguel Aguirre Lerma
+* **Equipo de Desarrollo (Quetzalli):**
+    * Carlos Miguel Aguirre Lerma
     * Diony Inés Domínguez Ruíz
     * José Rubén Morales Olán
     * Felipe De Jesús Ortega Navedo
