@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://ckcp11w4t2air"]
+
+[ext_resource type="Texture2D" uid="uid://behkan2kxnwp3" path="res://scenes/Fondo inicial de EcoSort.jpg" id="1_e6fyy"]
+[ext_resource type="StyleBox" path="res://scenes/" id="2_j6a7c"]
+[ext_resource type="Texture2D" uid="uid://bwwmnu4ofnt6" path="res://scenes/AeroPeek.png" id="3_scoti"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_i1gbh"]
+light_mode = 1
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_46p8p"]
+
+[sub_resource type="SystemFont" id="SystemFont_okuri"]
+font_names = PackedStringArray("Frutiger")
+
+[sub_resource type="Theme" id="Theme_e6fyy"]
+
+[node name="Main_UI" type="Control" unique_id=1770394694]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Fondo" type="TextureRect" parent="." unique_id=1108130739]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_e6fyy")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="PanelPuntos" type="Panel" parent="." unique_id=1903825261]
+material = SubResource("CanvasItemMaterial_i1gbh")
+layout_mode = 0
+offset_left = 10.0
+offset_top = 9.0
+offset_right = 277.0
+offset_bottom = 162.0
+theme_override_styles/panel = ExtResource("2_j6a7c")
+
+[node name="Label" type="Label" parent="PanelPuntos" unique_id=685677971]
+material = SubResource("CanvasItemMaterial_46p8p")
+layout_mode = 0
+offset_left = 15.0
+offset_top = 21.0
+offset_right = 250.0
+offset_bottom = 133.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.3137255)
+theme_override_fonts/font = SubResource("SystemFont_okuri")
+theme_override_font_sizes/font_size = 50
+text = "Puntos: 0"
+
+[node name="PanelPuntosCristal" type="NinePatchRect" parent="PanelPuntos" unique_id=63362710]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 4.0
+offset_right = 266.0
+offset_bottom = 149.0
+theme = SubResource("Theme_e6fyy")
+texture = ExtResource("3_scoti")
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="ZonaBotes" type="HBoxContainer" parent="." unique_id=1537293788]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
