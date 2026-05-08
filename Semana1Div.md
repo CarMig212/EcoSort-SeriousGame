@@ -41,4 +41,4 @@ Mientras Felipe programa cómo se mueven los objetos, Rubén debe programar qué
 ### Dinámica de trabajo de la Semana 1
 Diony sube las imágenes al repo. Miguel arma la pantalla de fondo y la interfaz sobre esas imágenes. En paralelo, Felipe y Rubén crean escenas de prueba aisladas para programar el *Drag & Drop* y las zonas de los botes. 
 
-El jueves o viernes 23 o 24 de abril unimos todo: metemos los scripts de Felipe y Rubén en mi interfaz, compilamos el `.exe` y así tenemos lista nuestra primera entrega.
+El lunes o martes 27 o 28 de abril unimos todo: metemos los scripts de Felipe y Rubén en la interfaz, compilamos el `.exe` y así tenemos lista nuestra primera entrega.

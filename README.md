@@ -29,4 +29,4 @@ El desarrollo sigue la secuencia pedagógica **LM1 → LM2 → LM4 → LM3**:
 5. **Semana 5 (20 may - 26 may):** Integración, Pruebas y Pulido (Verificación de RNF).
 
 ---
-*Proyecto integrante para la experiencia educativa: Programación para aplicaciones de Escritorio.*
+*Proyecto integrador para la experiencia educativa: Programación para aplicaciones de Escritorio.*
